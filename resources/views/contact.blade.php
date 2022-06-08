@@ -44,6 +44,6 @@
             <a href="{{route('info')}}">Info</a>
             <a href="{{route('contact')}}">Contact</a>
         </nav>
-        <h1>{{$saluto}}</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi ipsum deserunt delectus aliquam omnis corporis veritatis amet incidunt eaque voluptate aut, nemo corrupti quidem quaerat fugit eum exercitationem quos atque ullam, in necessitatibus repellendus impedit. Pariatur quos reprehenderit quia autem, omnis eveniet soluta porro aut qui perferendis libero enim?</p>
     </body>
 </html>

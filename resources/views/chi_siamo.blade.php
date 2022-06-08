@@ -11,7 +11,7 @@
 
         <!-- Styles -->
         <style>
-            *{
+             *{
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
@@ -35,6 +35,11 @@
                text-align: center;
                font-size: 100px;
            }
+           h2,ul,li{
+               text-align: center;
+               margin-bottom: 20px;
+           }
+
         </style>
     </head>
     <body>
@@ -44,6 +49,11 @@
             <a href="{{route('info')}}">Info</a>
             <a href="{{route('contact')}}">Contact</a>
         </nav>
-        <h1>{{$saluto}}</h1>
+        <h2>Siamo dei bravi studenti...</h2>
+        <ul>
+            @foreach($lista as $item)
+            <li>{{$item}}</li>
+            @endforeach
+        </ul>
     </body>
 </html>
